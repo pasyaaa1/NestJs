@@ -49,8 +49,7 @@ export class BooksService {
             title: updateBookDto.title,
             author: updateBookDto.author,
             isbn: updateBookDto.isbn,
-            publishedYear: updateBookDto.publishedYear,
-            isAvailable: updateBookDto.isAvailable,
+            publishedYear: updateBookDto.publishedYear
         };
         this.books[bookIndex] = updatedBook;
         return updatedBook;
